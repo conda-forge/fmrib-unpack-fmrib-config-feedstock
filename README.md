@@ -1,11 +1,11 @@
-About fmrib-unpack-fmrib-config
-===============================
+About fmrib-unpack-fmrib-config-feedstock
+=========================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fmrib-unpack-fmrib-config-feedstock/blob/main/LICENSE.txt)
 
 Home: https://git.fmrib.ox.ac.uk/fsl/funpack-fmrib-config/
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fmrib-unpack-fmrib-config-feedstock/blob/main/LICENSE.txt)
 
 Summary: FMRIB configuration for FUNPACK
 
