@@ -1,18 +1,18 @@
 {% set name = "fmrib-unpack-fmrib-config" %}
-{% set version = "1.7.1" %}
+{% set version = "1.7.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0a520ab8420956256da28266d8dc9788bbb934a38927dd7375cd294e1d65f680
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 306c6bed4c6d25e0a6d5b1cbeb13b21bb5daabb17400bbfa448db5c68d978161
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
